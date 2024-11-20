@@ -7,14 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
   
     prevButton.addEventListener('click', function() {
       carouselContainer.scrollBy({
-        left: -260, // Ajustez cette valeur en fonction de la largeur de vos éléments
+        left: -200, // Ajustez cette valeur en fonction de la largeur de vos éléments
         behavior: 'smooth'
       });
     });
   
     nextButton.addEventListener('click', function() {
       carouselContainer.scrollBy({
-        left: 260, // Ajustez cette valeur en fonction de la largeur de vos éléments
+        left: 200, // Ajustez cette valeur en fonction de la largeur de vos éléments
         behavior: 'smooth'
       });
     });
